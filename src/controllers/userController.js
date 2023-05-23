@@ -11,4 +11,8 @@ const userForm = (req, res) => {
     res.render("create", {title: "create"})
 }
 
-module.exports = { allUSer, userForm};
+const createUser = (req, res) => {
+    const {} = req.body;
+}
+
+module.exports = { allUSer, userForm, createUser};
